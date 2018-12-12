@@ -2,6 +2,6 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = "soundsystem")
+@ComponentScan(basePackages = {"soundsystem", "video"})
 public class CDPlayerConfig {
 }
