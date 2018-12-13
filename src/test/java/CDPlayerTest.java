@@ -13,7 +13,7 @@ import static org.junit.Assert.assertNotNull;
 @ContextConfiguration(classes= CDPlayerConfig.class)
 public class CDPlayerTest {
 
-    @Autowired
+    @Autowired(required=false)
     private CompactDisc cd;
 
     @Test
